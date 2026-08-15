@@ -442,3 +442,14 @@ h1, h2, h3{
 @media (min-width: 720px){
   .cj-heros{ padding-block: 96px 120px; }
 }
+
+/* ===== Photo de héros + fond animé (14 août 2026) ===== */
+.cj-heros-fond{ overflow: hidden; }
+.cj-heros-fond img{ width: 100%; height: 100%; object-fit: cover; display: block; }
+.heros-voile{ position: absolute; inset: 0; z-index: 1;
+  background: radial-gradient(125% 95% at 50% 50%, rgba(92,26,46,.92) 0%, rgba(92,26,46,.88) 38%, rgba(92,26,46,.68) 78%, rgba(92,26,46,.58) 100%); }
+.cj-heros > *:not(.cj-heros-fond){ position: relative; z-index: 2; }
+@media (prefers-reduced-motion: no-preference){
+  @keyframes v3ken{ from{ transform: scale(1.05); } to{ transform: scale(1.13); } }
+  .cj-heros-fond img{ animation: v3ken 26s ease-in-out infinite alternate; will-change: transform; }
+}
