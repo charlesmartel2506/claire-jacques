@@ -14,7 +14,7 @@ Canada's 100 Best Restaurants 2025 — et toujours aucun site, juste un Instagra
 
 J'en ai construit un pour Claire Jacques, déjà en ligne :
 
-https://charlesmartel2506.github.io/claire-jacques/
+https://vaelordesign.github.io/claire-jacques/
 
 Deux minutes à regarder. Gratuit, aucune obligation.
 
